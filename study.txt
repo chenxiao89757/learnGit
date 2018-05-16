@@ -1,3 +1,9 @@
+$ ssh-keygen -t rsa -C "yourname@youremail.com"
+
+打开本地 id_rsa.pub 文件，复制文件内容。
+
+登陆 GitHub 系统。点击右上角的 Account Settings—>SSH Public keys —> add another public keys
+
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
